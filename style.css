@@ -1,6 +1,6 @@
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -9,6 +9,7 @@ body {
     font-size: 14px;
     color: #6c7279;
     margin: 0;
+    background-color: black;
 }
 
 /*Container*/
@@ -25,11 +26,39 @@ body {
 
 }
 
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    border-bottom: 1px solid #505268;
+}
 
+/*Nav*/
 
+.nav {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+}
 
+.nav__link {
+    margin-left: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .2s linear;
 
+}
 
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
 
 
 
