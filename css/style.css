@@ -166,3 +166,56 @@ body {
     bottom: 10px;
     right: 170px;
 }
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+
+    position: absolute;
+    bottom: 45px;
+    left: 0px;
+}
+
+/*Contacts*/
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.contacts__link {
+    margin-right: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contacts__link:last-child{
+    margin-right: 0;
+    position: relative;
+}
+
+.contacts__link:last-child:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    margin-left: 2rem;
+
+    background-color: #fff;
+    pointer-events: none;
+    
+    position: absolute;
+    left: 100%;
+    top: 11px;
+}
+
+.contacts__link:hover {
+    text-decoration: underline;
+}
+
+.contacts__icon {
+    margin-right: 5px;
+}
