@@ -137,6 +137,10 @@ body {
     color: #fff;
 }
 
+.text p::first-line {
+    font-weight: 700;
+}
+
 /*Btn*/
 
 .btn {
