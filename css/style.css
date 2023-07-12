@@ -26,8 +26,9 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1030px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 /*Page*/
@@ -108,7 +109,10 @@ body {
 /*Content*/
 
 .content {
-    width: 565px;
+    height: 100%;
+    width: 100%;
+    max-width: 565px;
+
 }
 
 .content__header {
@@ -180,7 +184,7 @@ body {
 .dwarf {
     position: absolute;
     bottom: 10px;
-    right: 170px;
+    right: 70px;
 }
 
 /*Footer*/
@@ -271,3 +275,85 @@ body {
 .textarea::placeholder {
     color: #fff;
 }
+
+/*Media*/
+
+@media (max-width: 1000px) {
+    .dwarf {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+        .page {
+            min-height: 100vh;
+            height: auto;
+            padding-bottom: 2rem;
+        }
+
+        /*Header*/
+
+        .header {
+            margin-bottom: 50px;
+        }
+
+        .header__logo {
+            display: none;
+        }
+
+        .header__brand {
+            font-size: 1.2rem;
+        }
+
+        /*Content*/
+
+        .content {
+            margin-bottom: 50px;
+        }
+
+        /*Footer*/
+
+        .footer {
+            position: static;
+        }
+
+
+}
+
+@media (max-width: 565px) {
+
+        /*Content*/
+
+        .content {
+            text-align: center;
+        }
+
+        /*Header*/
+        
+        .header__inner {
+            flex-direction: column;
+        }
+
+        .header__brand {
+            margin-bottom: 1rem;
+        }
+
+        /*Contacts*/
+
+        .contacts {
+            flex-direction: column;
+        }
+
+        .contacts__link {
+            margin-right: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .contacts__link:last-child {
+            margin-bottom: 0;
+        }
+        
+        .contacts__link:last-child::after {
+            display: none;
+        }
+}       
