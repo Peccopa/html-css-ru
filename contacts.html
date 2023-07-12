@@ -22,9 +22,9 @@
                         <img src="./img/code.png" alt="logo">
                     </div>
                     <nav class="header__nav">
-                        <a class="header__nav__link active" href="./about.html">Home</a>
+                        <a class="header__nav__link" href="./index.html">Home</a>
                         <a class="header__nav__link" href="./about.html">About me</a>
-                        <a class="header__nav__link" href="./contacts.html">Contacts</a>
+                        <a class="header__nav__link active" href="./contacts.html">Contacts</a>
                     </nav>
                 </div>
             </div> <!--/.container-->
@@ -33,13 +33,28 @@
         <div class="container">
             <main class="content">
                 <div class="content__header">
-                    <h2 class="subtitle">My name is</h2>
-                    <h1 class="title">Andrey Zharkikh and I’m <span>Web Developer</span></h1>
+                    <h1 class="title">Write me a <span>message</span></h1>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Labore placeat excepturi quam maiores, molestias ipsum quisquam incidunt doloremque ipsa velit ducimus dicta corporis doloribus eligendi sed voluptatum, nemo eum minima cumque repellat nisi reprehenderit ea. Incidunt sed quae quam nihil!</p>
-                </div>
-                <a class="btn" href="#">Contact me</a>
+                <form class="form" action="/" method="post">
+                    <div class="form__group">
+                        <input class="input" type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="form__group">
+                        <input class="input" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form__group">
+                        <input class="input" type="tel" name="phone" placeholder="Phone">
+                    </div>
+                    <div class="form__group">
+                        <textarea class="textarea" name="text" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form__group">
+                        <button class="btn btn__full" type="submit">Send message</button>
+                    </div>
+                </form>
             </main>
         </div>
         <img class="dwarf" src="./img/dwarf.png" alt="dwarf">
