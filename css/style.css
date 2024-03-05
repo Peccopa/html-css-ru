@@ -114,7 +114,7 @@ h2.title {
 }
 
 .waiting {
-  height: 604px;
+  min-height: 604px;
   background-color: #efefef;
   padding: 85px 0 76px 0;
 }
@@ -145,13 +145,12 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+  display: flex;
+  justify-content: space-between;
   margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 15px;
   width: 339px;
   text-align: center;
 }
@@ -167,4 +166,8 @@ h2.title {
   font-weight: 300;
   line-height: 21px;
   margin-top: 33px;
+}
+
+.optimization {
+  min-height: 550px;
 }
