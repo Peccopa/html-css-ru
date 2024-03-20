@@ -1,4 +1,5 @@
-$main_color: #1eacc7
+$main-color: #1eacc7
+$second-color: #ff5656
 
 *
   font-family: 'Roboto', sans-serif
@@ -7,7 +8,9 @@ $main_color: #1eacc7
   position: relative
 
 nav
-  position: sticky
+  position: fixed
+  z-index: 1
+  width: 100%
   height: 50px
   background-color: #212121
 
@@ -17,50 +20,42 @@ nav
   padding: 13px 70px
   margin: 0
   list-style-type: none
-
-  .menu_link
+  &_link
     font-weight: 300
     font-size: 15px
     color: #fff
     text-decoration: none
-
     &:hover
       text-decoration: underline
-
-  .menu_item
+  &_item
     border-right: #000 2px dotted
     padding-right: 28px
-
     &:last-child
       border-right: none
 
 .subheader
+  margin-top: 50px
   position: absolute
   width: 100%
   height: 87px
   background: rgba(0, 0, 0, 0.6)
-
-  .subheader_logo
+  &_logo
     display: block
     max-width: 100%
     margin-top: 16px
-
-.sybheader .subheader_official
-  margin-right: 6px
-  opacity: 0.5
-  color: #fff
-  font-style: 13px
-  font-weight: 400
-
-.subheader
-  .subheader_call
+  &_official
+    margin-right: 6px
+    opacity: 0.5
+    color: #fff
+    font-style: 13px
+    font-weight: 400
+  &_call
     color: #fff
     font-style: 12px
     font-weight: 300
     text-align: right
     margin-top: 19px
-
-  .subheader_phone
+  &_phone
     display: block
     margin-top: 8px
     color: #fff
@@ -69,14 +64,13 @@ nav
     text-transform: uppercase
     text-align: right
     line-height: 12px
-
-  .subheader_btn
+  &_btn
     margin-top: 19px
     width: 172px
     height: 46px
     box-shadow: inset 0 -3px 0 0 rgba(0, 0, 0, 0.12)
     border: none
-    background: linear-gradient(0deg, $main_color 0%, #4ce2ff 100%)
+    background: linear-gradient(0deg, $main-color 0%, #4ce2ff 100%)
     text-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.21)
     color: #fff
     font-weight: 400
@@ -89,8 +83,7 @@ nav
   padding: 150px 0 135px 0
   min-height: 800px
   background: url(../img/uber_bg.png) center (center / cover) no-repeat
-
-  .promo_header
+  &_header
     color: #fff
     font-size: 60px
     font-weight: 700
@@ -98,8 +91,7 @@ nav
     line-height: 60px
     margin: 0
     text-align: center
-
-  .promo_subheader
+  &_subheader
     color: #fff
     font-size: 36px
     font-weight: 700
@@ -108,23 +100,21 @@ nav
     margin: 0
     margin-top: 22px
     text-align: center
-
-  .promo_descr
+  &_descr
     font-weight: 400
     font-size: 18px
     line-height: 133%
     text-align: center
     color: #fff
     margin-top: 23px
-
-  .promo_btn
+  &_btn
     display: block
     margin: 118px auto 0 auto
     border-radius: 4px
     width: 259px
     height: 63px
     box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.12)
-    background: linear-gradient(0deg, $main_color 0%, #4ce2ff 100%)
+    background: linear-gradient(0deg, $main-color 0%, #4ce2ff 100%)
     font-weight: 400
     font-size: 18px
     text-transform: uppercase
@@ -132,9 +122,6 @@ nav
     color: #fff
     text-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.21)
     border: none
-
-.reasons
-  padding: 71px 0 65px 0
 
 .label
   margin: 0 auto
@@ -165,14 +152,14 @@ nav
   text-align: center
   color: #222
 
-
-.reasons .reasons_block
-  display: flex
-  justify-content: center
-  align-items: center
-  margin-top: 35px
-
-  .reasons_round
+.reasons
+  padding: 71px 0 65px 0
+  &_block
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 35px
+  &_round
     display: flex
     justify-content: center
     align-items: center
@@ -180,20 +167,17 @@ nav
     min-width: 113px
     min-height: 113px
     border-radius: 100%
-    background-color: $main_color
-
-  .reasons_descr
+    background-color: $main-color
+  &_descr
     max-width: 372px
-
-    .reasons_subtitle
-      font-weight: 400
-      font-size: 17px
-      color: $main_color
-
-    .reasons_text
-      font-weight: 300
-      font-size: 15px
-      color: #202020
+  &_subtitle
+    font-weight: 400
+    font-size: 17px
+    color: $main-color
+  &_text
+    font-weight: 300
+    font-size: 15px
+    color: #202020
 
 .mobile
   min-height: 864px
@@ -265,10 +249,10 @@ nav
   .subtitle_white
     margin-top: 1px
     color: #fff
-  .choice_img
+  &_img
     display: block
     margin: 54px auto 0
-  .choice_descr
+  &_descr
     font-weight: 300
     font-size: 17px
     line-height: 141%
