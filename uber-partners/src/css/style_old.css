@@ -194,6 +194,10 @@ nav {
   background-color: #1eacc7;
 }
 
+.reasons .reasons_block .reasons_descr {
+  max-width: 372px;
+}
+
 .reasons .reasons_block .reasons_descr .reasons_subtitle {
   font-weight: 400;
   font-size: 17px;
