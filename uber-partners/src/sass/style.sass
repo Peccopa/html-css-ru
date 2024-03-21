@@ -266,15 +266,6 @@ nav
     width: 100%
     height: 520px
     background-color: #000
-  .label_white
-    color: #222
-    background-color: #fff
-  .title_white
-    margin-top: 27px
-    color: #fff
-  .subtitle_white
-    margin-top: 1px
-    color: #fff
   &_img
     display: block
     margin: 54px auto 0
@@ -284,6 +275,16 @@ nav
     line-height: 141%
     text-align: center
     color: #222
+
+.label_white
+  color: #222
+  background-color: #fff
+.title_white
+  margin-top: 27px
+  color: #fff
+.subtitle_white
+  margin-top: 1px
+  color: #fff
 
 .require
   padding: 68px 0 84px 0
@@ -328,6 +329,109 @@ nav
       li
         &::before
           background: url('../icons/check-red.svg') center (center / cover) no-repeat
+.world
+  width: 100%
+  background-color: #080816
+  &_block
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding-top: 46px
+    padding-bottom: 22px
+    width: 100%
+    height: 716px
+    background: url('../img/world_bg.png') center (center / cover) no-repeat
+  .label
+    width: 75px
+    height: 25px
+  &_link
+    display: inline-block
+    font-weight: 400
+    font-size: 15px
+    line-height: 453%
+    text-transform: uppercase
+    text-align: center
+    color: #1fbad6
+    text-decoration: none
+    margin: 0 auto
+    &:hover
+      text-decoration: underline
+
+.footer
+  padding: 10px 21px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &_social
+    display: flex
+    width: 20%
+    &_item
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 35px
+      height: 35px
+      background-color: #070716
+      border-radius: 100%
+      text-decoration: none
+      margin-right: 5px
+      i
+        color: #fff
+        font-size: 17px
+        margin-top: 1px
+  &_store
+    display: flex
+    width: 20%
+    height: 28px
+    &_item
+      width: 33%
+      height: 100%
+      margin-left: 5px
+      border-radius: 5px
+      &:nth-child(1)
+        background: url('../icons/appstore.png') center (center / cover) no-repeat
+      &:nth-child(2)
+        background: url('../icons/google.png') center (center / cover) no-repeat
+      &:nth-child(3)
+        background: url('../icons/windows.png') center (center / cover) no-repeat
+  &_menu
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-transform: uppercase
+    gap: 10px
+    &::before
+      content: ''
+      display: block
+      width: 300px
+      height: 4px
+      background-color: #1fbad6
+    &_main
+      display: flex
+      gap: 40px
+      margin-top: 20px
+    &_main_item
+      text-decoration: none
+      font-weight: 300
+      font-size: 15px
+      color: #070716
+    &_submain
+      display: flex
+      gap: 25px
+    &_submain_item
+      text-decoration: none
+      font-weight: 300
+      font-size: 11px
+      color: #999
+    &_language
+      text-decoration: none
+      font-weight: 400
+      font-size: 11px
+      text-align: center
+      color: #1fbad6
+
+
+
 
 
 
