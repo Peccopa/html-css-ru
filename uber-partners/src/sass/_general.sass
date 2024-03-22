@@ -41,11 +41,11 @@ nav
     margin-right: 6px
     opacity: 0.5
     color: #fff
-    font-style: 13px
+    font-size: 13px
     font-weight: 400
   &_call
     color: #fff
-    font-style: 12px
+    font-size: 12px
     font-weight: 300
     text-align: right
     margin-top: 19px
@@ -53,7 +53,7 @@ nav
     display: block
     margin-top: 8px
     color: #fff
-    font-style: 22px
+    font-size: 22px
     font-weight: 400
     text-transform: uppercase
     text-align: right
@@ -152,8 +152,8 @@ nav
   padding: 71px 0 65px 0
   &_block
     display: flex
-    justify-content: center
-    align-items: center
+    // justify-content: center
+    // align-items: center
     margin-top: 35px
   &_round
     display: flex
@@ -161,7 +161,7 @@ nav
     align-items: center
     margin-right: 26px
     min-width: 113px
-    min-height: 113px
+    height: 113px
     border-radius: 100%
     background-color: $main-color
   &_descr
@@ -367,7 +367,6 @@ nav
       i
         color: #fff
         font-size: 17px
-        margin-top: 1px
   &_store
     display: flex
     width: 20%
@@ -377,12 +376,13 @@ nav
       height: 100%
       margin-left: 5px
       border-radius: 5px
+      margin: 3px
       &:nth-child(1)
-        background: url('../icons/appstore.png') center (center / cover) no-repeat
+        background: url('../icons/appstore.png') center (center / 100%) no-repeat
       &:nth-child(2)
-        background: url('../icons/google.png') center (center / cover) no-repeat
+        background: url('../icons/google.png') center (center / 100%) no-repeat
       &:nth-child(3)
-        background: url('../icons/windows.png') center (center / cover) no-repeat
+        background: url('../icons/windows.png') center (center / 100%) no-repeat
   &_menu
     display: flex
     flex-direction: column
