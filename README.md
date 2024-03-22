@@ -2,7 +2,7 @@
 ___
 ### uber-partners
 - CSS/HTML
-- Sass/Bootstrap-grid
+- sass/bootstrap/fontawesome
 - https://peccopa.github.io/wordpress-ru/uber-partners/
 - ![2024-03-26](https://)
 ___
