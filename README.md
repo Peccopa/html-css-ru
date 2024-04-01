@@ -5,7 +5,7 @@ ___
 - https://peccopa.github.io/wordpress-ru/uber-partners/
 - *Javascript, CSS, HTML*
 - *Sass, BootstrapGrid*
-- *Figma(Pixso), FontwesomeIcons, ~~PerfectPixel~~*
+- *Figma(Pixso), FontAwesomeIcons, ~~PerfectPixel~~*
 - *responsive design, burger menu*
 ___
 
