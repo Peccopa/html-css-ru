@@ -21,5 +21,24 @@
     .card-img {
       max-width: 70px;
     }
+    .card-title {
+      margin-top: 35px;
+      color: rgb(13, 13, 13);
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 29px;
+      text-align: center;
+    }
+    .card-descr {
+      max-width: 269px;
+      color: rgb(13, 13, 13);
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 18px;
+      text-align: center;
+      a {
+        color: rgb(255, 0, 0);
+      }
+    }
   }
 }
