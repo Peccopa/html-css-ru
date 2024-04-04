@@ -3,8 +3,8 @@ ___
 ### run-smart
 - ![2024-04-03](https://)
 - https://peccopa.github.io/wordpress-ru/run-smart/src/
-- *Javascript, CSS, HTML*
-- *SCSS, GULP*
-- *Figma(Pixso), PerfectPixel*
-- *responsive design, slider*
+- *Responsive design, modal windows, slider*
+- **JAVASCRIPT, CSS, HTML**
+- *SASS, GULP*
+- *Figma(Pixso)*
 ___
