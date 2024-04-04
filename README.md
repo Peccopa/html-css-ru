@@ -5,6 +5,6 @@ ___
 - https://peccopa.github.io/wordpress-ru/run-smart/src/
 - *Responsive design, modal windows, slider*
 - **JAVASCRIPT, CSS, HTML**
-- *SASS, GULP*
+- *SASS, GULP, BEM*
 - *Figma(Pixso)*
 ___
