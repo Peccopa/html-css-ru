@@ -26,9 +26,9 @@ const slider = tns({
   container: '.carousel__inner',
   items: 1,
   slideBy: 'page',
-  autoplay: true,
-  speed: 1000,
-  autoplayButtonOutput: false,
+  // autoplay: true,
+  // speed: 1000,
+  // autoplayButtonOutput: false,
   controls: false,
   nav: false,
   responsive: {
