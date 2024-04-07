@@ -6,6 +6,6 @@ ___
 - *Responsive design, modal windows, slider*
 - **JAVASCRIPT, CSS, HTML**
 - *SASS, GULP, BEM*
-- *~~SlickSlider~~, Tiny-Slider*
+- *jQuery, SlickSlider, ~~Tiny-Slider~~*
 - *Figma(Pixso), ~~PixelPerfect~~*
 ___
