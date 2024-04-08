@@ -10,6 +10,7 @@
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
+  transition: all .3s ease-in-out;
   &_main {
     margin-top: 67px;
     width: 300px;
@@ -28,5 +29,8 @@
     height: 44px;
     font-size: 14px;
     line-height: 22px;
+  }
+  &:hover {
+    background: rgb(160, 1, 1);
   }
 }
