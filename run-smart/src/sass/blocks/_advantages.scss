@@ -1,6 +1,7 @@
 .advantages {
   min-height: 473px;
   padding: 73px 0 65px 0;
+  background-color: #f6f6f6;
   &__wrapper {
     margin-top: 65px;
     display: flex;
@@ -13,6 +14,15 @@
     align-items: center;
     .card-img {
       max-width: 70px;
+      &_animated {
+        animation-name: heartbear;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        &:hover {
+          animation-play-state: paused;
+        }
+      }
     }
     .card-title {
       margin-top: 35px;
