@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <section class="promo">
+    <section class="promo" id="up">
       <div class="container">
         <header class="header">
           <a class="header__logo" href="/wordpress-ru/run-smart/src/">
@@ -847,8 +847,20 @@
         <p class="modal__descr">и мы перезвоним вам в течении 10 минут</p>
         <form class="feed-form feed-form_mt-25" action="#">
           <input name="name" placeholder="Ваше имя" type="text" required />
-          <input name="phone" placeholder="Ваш телефон" type="tel" minlength="11" required />
-          <input name="email" placeholder="Ваш E-mail" type="email" minlength="5" required />
+          <input
+            name="phone"
+            placeholder="Ваш телефон"
+            type="tel"
+            minlength="11"
+            required
+          />
+          <input
+            name="email"
+            placeholder="Ваш E-mail"
+            type="email"
+            minlength="5"
+            required
+          />
           <button class="button button_submit" type="submit">
             заказать кОНСУЛЬТАЦИЮ
           </button>
@@ -873,12 +885,17 @@
         </p>
       </div>
     </div>
+
+    <a class="pageup" href="#up">
+      <img src="icons/page-up.svg" alt="pageup" />
+    </a>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
+    <script src="js/script.js"></script>
   </body>
-  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/jquery.maskedinput.min.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
-  <script src="js/script.js"></script>
 </html>
