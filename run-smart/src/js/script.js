@@ -63,13 +63,43 @@ $(document).ready(function () {
   });
 
   $('.button_mini').each(function (i) {
-    $(this).on('click', function() {
+    $(this).on('click', function () {
       // $('#order .modal__descr').text('1111');
       // alert($('.catalog-item__subtitle').eq(i).text());
       $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
       $('#overlay, #order').fadeIn('slow');
     });
   });
+  function validateForms(form) {
+    $(form).validate({
+      rules: {
+        name: {
+          required: true,
+          minlength: 2,
+        },
+        phone: 'required',
+        email: {
+          required: true,
+          email: true,
+        },
+      },
+      messages: {
+        name: {
+          required: 'Пожалуйста, введите своё имя`',
+          minlength: jQuery.validator.format('Введите {0} символa!'),
+        },
+        phone: 'Пожалуйста, введите свой номер',
+        email: {
+          required: 'Пожалуйста, введите свою почту',
+          email: 'Неправильно введён адрес почты',
+        },
+      },
+    });
+  }
+
+  validateForms('#consultation-form');
+  validateForms('#consultation form');
+  validateForms('#order form');
 });
 
 // const slider = tns({

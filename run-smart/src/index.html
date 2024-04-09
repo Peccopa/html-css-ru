@@ -108,7 +108,7 @@
           Просто заполните форму заявки и мы<br />
           перезвоним вам в течении 10 минут
         </div>
-        <form class="feed-form" action="#">
+        <form class="feed-form" id="consultation-form" action="#">
           <input name="name" placeholder="Ваше имя" type="text" required />
           <input name="phone" placeholder="Ваш телефон" type="tel" required />
           <input name="email" placeholder="Ваш E-mail" type="email" required />
@@ -847,8 +847,8 @@
         <p class="modal__descr">и мы перезвоним вам в течении 10 минут</p>
         <form class="feed-form feed-form_mt-25" action="#">
           <input name="name" placeholder="Ваше имя" type="text" required />
-          <input name="phone" placeholder="Ваш телефон" type="tel" required />
-          <input name="email" placeholder="Ваш E-mail" type="email" required />
+          <input name="phone" placeholder="Ваш телефон" type="tel" minlength="11" required />
+          <input name="email" placeholder="Ваш E-mail" type="email" minlength="5" required />
           <button class="button button_submit" type="submit">
             заказать кОНСУЛЬТАЦИЮ
           </button>
@@ -877,6 +877,7 @@
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="./js/jquery.validate.min.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
   <script src="js/script.js"></script>
 </html>

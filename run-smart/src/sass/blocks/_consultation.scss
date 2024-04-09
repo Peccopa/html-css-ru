@@ -10,4 +10,12 @@
     line-height: 30px;
     text-align: left;
   }
+  .feed-form .error {
+    color: $main-color;
+    border: 1px solid $main-color;
+  }
+  .feed-form label.error {
+    border: none;
+    text-align: center;
+  }
 }
