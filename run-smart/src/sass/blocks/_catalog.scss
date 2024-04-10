@@ -95,6 +95,7 @@
       line-height: 14px;
       text-align: center;
       text-decoration-line: underline;
+      cursor: pointer;
     }
     hr {
       margin-top: 19px;
@@ -152,7 +153,7 @@
         transform: translateX(-100%);
         margin-left: 0px;
       }
-      li {
+      &-item {
         color: rgb(85, 85, 85);
         font-size: 14px;
         font-weight: 300;
