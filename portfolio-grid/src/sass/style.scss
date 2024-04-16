@@ -1,9 +1,13 @@
-@import 'libs/font';
+@import 'libs/fonts';
 @import 'libs/reset';
-
-@import 'blocks/promo';
 
 @import 'base/general';
 @import 'base/variables';
 @import 'base/mixins';
+
+@import 'blocks/title';
+@import 'blocks/menu';
+@import 'blocks/sidepanel';
+@import 'blocks/promo';
+
 @import 'base/media';

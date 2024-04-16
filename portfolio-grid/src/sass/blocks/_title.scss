@@ -1,0 +1,18 @@
+.title {
+  color: $text-color;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: 0%;
+  &_fz48 {
+    font-size: 4.8rem;
+  }
+  &_fz16 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  &_fz14 {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+}
