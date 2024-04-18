@@ -1,7 +1,7 @@
 # wordpress-ru
 ### branch: portfolio-grid
 ![2024-04-12](https://)
->~~Responsive design, modal windows, carousel, active tabs,~~  
+>~~Responsive design, modal windows, hide scroll, carousel, active tabs,~~  
 >~~interactive map, validation form, mailer, favicon~~
 - https://peccopa.github.io/wordpress-ru/portfolio-grid/dist
 - ***PHP, JAVASCRIPT, CSS(SASS), HTML(BEM)***

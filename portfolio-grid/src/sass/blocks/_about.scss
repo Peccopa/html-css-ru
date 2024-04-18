@@ -1,0 +1,47 @@
+.about {
+  padding: 12rem 0;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 40rem 57rem;
+    grid-template-rows: minmax(24.3rem, auto) minmax(24.3rem, auto);
+    grid-auto-rows: minmax(30rem, auto);
+    column-gap: 7rem;
+    row-gap: 4rem;
+  }
+  &__photo {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  &__title {
+    position: relative;
+    margin: 0.6rem 0 0.6rem 1.2rem;
+    @include before_circle;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__skills {
+    display: grid;
+    grid-template-columns: 26rem 26rem;
+    grid-template-rows: minmax(11.6rem auto) minmax(11.6rem auto);
+    // grid-auto-rows: minmax(11.6rem auto);
+    column-gap: 5rem;
+    row-gap: 2rem;
+    &-item {
+      display: flex;
+      min-width: 26rem;
+      min-height: 11.6rem;
+      gap: 2rem;
+      & img {
+        // display: block;
+        // position: relative;
+        // @include before_circle;
+      }
+    }
+  }
+}
