@@ -17,13 +17,13 @@ function openMenu() {
   menu.classList.add('active');
   document.body.style.overflowY = 'hidden';
   document.body.style.padding = `0 ${scrollWidth}rem 0 0`;
-  burger.style.right = `${scrollWidth + 2}rem`
+  burger.style.right = `${scrollWidth + 2}rem`;
 }
 function closeMenu() {
   menu.classList.remove('active');
   document.body.style.overflowY = 'auto';
   document.body.style.padding = `0 0 0 0`;
-  burger.style.right = `${2}rem`
+  burger.style.right = `${2}rem`;
 }
 
 const burger = document.querySelector('.burger');
@@ -38,3 +38,11 @@ menuOverlay.addEventListener('click', closeMenu);
 document.addEventListener('keydown', (e) => {
   if (menu.classList.contains('active') && e.key === 'Escape') closeMenu();
 });
+
+const percent = document.querySelectorAll('.skills__progress-percent');
+const scale = document.querySelectorAll('.skills__progress-scale');
+
+scale.forEach((value, index) => {
+  value.style.width = percent[index].textContent;
+});
+
