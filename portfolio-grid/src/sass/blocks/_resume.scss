@@ -1,18 +1,18 @@
 .resume {
   padding-bottom: 12rem;
-  &__title {
-    position: relative;
-    text-align: center;
-    @include before_circle;
-    &::before {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-  &__subtitle {
-    margin-top: 0.6rem;
-    text-align: center;
-  }
+  // &__title {
+  //   position: relative;
+  //   text-align: center;
+  //   @include before_circle;
+  //   &::before {
+  //     left: 50%;
+  //     transform: translateX(-50%);
+  //   }
+  // }
+  // &__subtitle {
+  //   margin-top: 0.6rem;
+  //   text-align: center;
+  // }
   &__wrapper {
     padding: 6rem 6.5rem 0;
     display: grid;
