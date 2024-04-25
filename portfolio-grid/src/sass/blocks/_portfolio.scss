@@ -5,7 +5,7 @@
     display: grid;
     grid-template: repeat(2, 28rem) / repeat(4, 28rem);
     grid-auto-rows: 28rem;
-    gap: .5rem;
+    gap: 0.5rem;
   }
   .vertical {
     grid-row: 1 / 3;
@@ -20,8 +20,10 @@
   }
   &__img {
     width: 100%;
-    transition: all .3s ease-in-out;
-    filter: blur(.3rem);
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    filter: blur(0.3rem);
     &:hover {
       transform: scale(1.1);
       filter: blur(0rem);

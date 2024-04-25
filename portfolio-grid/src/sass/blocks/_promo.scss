@@ -32,15 +32,13 @@
     color: $text-color;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-    &:hover {
-      color: $text-hover;
-    }
+    cursor: default;
     &_active {
       background-color: $main-color;
       box-shadow: 0 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.15);
-      cursor: default;
+      cursor: pointer;
       &:hover {
-        color: $text-color;
+        box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0, 0, 0, 0.15);
       }
     }
   }
