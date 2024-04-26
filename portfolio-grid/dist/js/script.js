@@ -17,13 +17,21 @@ function openMenu() {
   menu.classList.add('active');
   document.body.style.overflowY = 'hidden';
   document.body.style.padding = `0 ${scrollWidth}rem 0 0`;
-  burger.style.right = `${scrollWidth + 2}rem`;
+  if (window.innerWidth <= 576) {
+    burger.style.right = `${scrollWidth + 1}rem`;
+  } else {
+    burger.style.right = `${scrollWidth + 2}rem`;
+  }
 }
 function closeMenu() {
   menu.classList.remove('active');
   document.body.style.overflowY = 'auto';
   document.body.style.padding = `0 0 0 0`;
-  burger.style.right = `${2}rem`;
+  if (window.innerWidth <= 576) {
+    burger.style.right = `${1}rem`;
+  } else {
+    burger.style.right = `${2}rem`;
+  }
 }
 
 const burger = document.querySelector('.burger');
@@ -45,4 +53,3 @@ const scale = document.querySelectorAll('.skills__progress-scale');
 scale.forEach((value, index) => {
   value.style.width = percent[index].textContent;
 });
-
