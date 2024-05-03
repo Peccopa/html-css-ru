@@ -7,7 +7,19 @@
 @media (max-width: 1200px) {
   .container {
     padding-left: 1rem;
-    // 30:00
+  }
+  .about {
+    &__wrapper {
+      grid-template-columns: 40rem 52rem;
+      column-gap: 3rem;
+    }
+    &__skills {
+      grid-template-columns: 24rem 24rem;
+      column-gap: 2rem;
+      &-item {
+        min-width: 23rem;
+      }
+    }
   }
 }
 
@@ -16,6 +28,19 @@
     max-width: 43rem;
     font-size: 42px;
   }
+  .about {
+    &__wrapper {
+      grid-template-columns: 30rem 38rem;
+    }
+    &__subtitle {
+      font-size: 3rem;
+    }
+    &__skills {
+      margin-top: 2rem;
+      grid-template-columns: 36rem;
+      grid-auto-rows: minmax(5rem, auto);
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -23,6 +48,24 @@
     font-size: 36px;
     max-width: 40rem;
     line-height: 39px;
+  }
+  .about {
+    padding-top: 4rem;
+    &__wrapper {
+      grid-template: 48rem auto auto / 1fr;
+      gap: 2rem;
+    }
+    &__photo {
+      padding: 1rem;
+      grid-row: auto;
+    }
+    &__descr {
+      padding: 1rem;
+    }
+    &__skills {
+      padding: 1rem;
+      grid-template-columns: repeat(2, 26rem);
+    }
   }
 }
 
@@ -42,6 +85,9 @@
   }
   .burger {
     right: 1rem;
+  }
+  .about {
+    //50
   }
 }
 

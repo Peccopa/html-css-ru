@@ -12,6 +12,7 @@
   &__photo {
     grid-row-start: 1;
     grid-row-end: 3;
+    height: 100%;
     img {
       display: block;
       width: 100%;
@@ -47,7 +48,7 @@
       margin-left: 1.2rem;
       display: flex;
       min-width: 26rem;
-      min-height: 11.6rem;
+      // min-height: 11.6rem;
       gap: 2rem;
     }
     &-circle {
