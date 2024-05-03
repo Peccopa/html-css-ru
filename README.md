@@ -1,4 +1,4 @@
-# wordpress-ru
+# html-css-ru
 ### branch: portfolio-grid
 ![2024-04-12](https://)
 >~~Responsive design, modal windows, hide scroll, carousel, active tabs,~~  
