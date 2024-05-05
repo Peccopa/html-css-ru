@@ -44,7 +44,8 @@
         &::after {
           content: '';
           position: absolute;
-          top: 1.6rem;
+          // top: 1.6rem;
+          top: -1rem;
           left: 0;
           width: 0.1rem;
           height: calc(100% + 1.6rem);
