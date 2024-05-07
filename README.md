@@ -1,6 +1,6 @@
 # html-css-ru
 ### branch: portfolio-grid
-![2024-05-07](https://peccopa.github.io/html-css-ru/2024-05-07.jpg)
+![2024-05-07](https://peccopa.github.io/html-css-ru/portfolio-grid/2024-05-07.jpg)
 >Responsive design, burger menu, hide scroll,  
 >validation form, favicon, privacy policy
 - https://peccopa.github.io/html-css-ru/portfolio-grid/dist
@@ -26,7 +26,6 @@ ___
 - ***Javascript, CSS, HTML***
 - *Sass, BootstrapGrid*
 - *Figma(Pixso), FontAwesomeIcons, ~~PerfectPixel~~*
-
 ___
 ### branch: wordpress-promo
 ![2024-03-06](https://github.com/Peccopa/wordpress.ru/assets/119999253/4e71569f-505d-4494-8c47-f41c79a43f11)
