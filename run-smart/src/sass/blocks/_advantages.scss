@@ -1,0 +1,47 @@
+.advantages {
+  min-height: 473px;
+  padding: 73px 0 65px 0;
+  background-color: #f6f6f6;
+  &__wrapper {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    width: 277px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card-img {
+      max-width: 70px;
+      &_animated {
+        animation-name: heartbear;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        &:hover {
+          animation-play-state: paused;
+        }
+      }
+    }
+    .card-title {
+      margin-top: 35px;
+      color: rgb(13, 13, 13);
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 29px;
+      text-align: center;
+    }
+    .card-descr {
+      max-width: 269px;
+      color: rgb(13, 13, 13);
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 18px;
+      text-align: center;
+      a {
+        color: rgb(255, 0, 0);
+      }
+    }
+  }
+}
