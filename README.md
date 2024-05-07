@@ -1,15 +1,5 @@
-# html-css-ru
-### branch: portfolio-grid
-![2024-05-07](https://peccopa.github.io/html-css-ru/portfolio-grid/2024-05-07.jpg)
->Responsive design, burger menu, hide scroll,  
->validation form, favicon, privacy policy
-- https://peccopa.github.io/html-css-ru/portfolio-grid/dist
-- ***JAVASCRIPT, CSS(SASS), HTML(BEM)***
-- ***GULP:*** *Browser-Sync, AutoPrefixer, Clean-CSS, Rename, HTMLmin, Imagemin*
-- *Figma(Pixso)*
-___
-### branch: run-smart
-![2024-04-10](https://github.com/Peccopa/wordpress-ru/assets/119999253/785672e7-2f11-42d9-86f2-987312c1b0b4)
+## [html-css-ru: run-smart](https://github.com/Peccopa/html-css-ru/tree/run-smart)
+[<img src="https://peccopa.github.io/html-css-ru/run-smart/run-smart.gif">](https://peccopa.github.io/html-css-ru/run-smart/dist)
 >Responsive design, modal windows, carousel, active tabs,  
 >interactive map, validation form, mailer
  - https://peccopa.github.io/html-css-ru/run-smart/dist
@@ -19,17 +9,31 @@ ___
 - *PHPMailer, Figma(Pixso), Animate.css, Wow.js*
 - *~~PixelPerfect~~, ~~Tiny-Slider~~*
 ___
-### branch: uber-partners
-![2024-04-01 (2)](https://github.com/Peccopa/wordpress-ru/assets/119999253/057d38ef-a435-43f1-b5a8-fd10c9e044cf)
+## [html-css-ru: portfolio-grid](https://github.com/Peccopa/html-css-ru/tree/portfolio-grid)
+[<img src="https://peccopa.github.io/html-css-ru/portfolio-grid/portfolio-grid.gif">](https://peccopa.github.io/html-css-ru/portfolio-grid/dist)
+>Responsive design, burger menu, hide scroll,  
+>validation form, favicon, privacy policy
+- https://peccopa.github.io/html-css-ru/portfolio-grid/dist
+- ***JAVASCRIPT, CSS(SASS), HTML(BEM)***
+- ***GULP:*** *Browser-Sync, AutoPrefixer, Clean-CSS, Rename, HTMLmin, Imagemin*
+- *Figma(Pixso)*
+___
+## [html-css-ru: uber-partners](https://github.com/Peccopa/html-css-ru/tree/uber-partners)
+[<img src="https://peccopa.github.io/html-css-ru/uber-partners/uber-partners.gif">](https://peccopa.github.io/html-css-ru/uber-partners/src/)
 >Responsive design, burger menu
 - https://peccopa.github.io/html-css-ru/uber-partners/src/
 - ***Javascript, CSS, HTML***
 - *Sass, BootstrapGrid*
 - *Figma(Pixso), FontAwesomeIcons, ~~PerfectPixel~~*
 ___
-### branch: wordpress-promo
-![2024-03-06](https://github.com/Peccopa/wordpress.ru/assets/119999253/4e71569f-505d-4494-8c47-f41c79a43f11)
+## [html-css-ru: wordpress-promo](https://github.com/Peccopa/html-css-ru/tree/wordpress-promo)
+[<img src="https://peccopa.github.io/html-css-ru/wordpress-promo/wordpress-promo.gif">](https://peccopa.github.io/html-css-ru/wordpress-promo/)
 - https://peccopa.github.io/html-css-ru/wordpress-promo/
 - ***CSS, HTML***
 - *Figma(Pixso), ~~PerfectPixel~~*
+___
+## [html-css-ru: simple-page](https://github.com/Peccopa/html-css-ru/tree/simple-page)
+[<img src="https://peccopa.github.io/html-css-ru/simple-page/simple-page.gif">](https://peccopa.github.io/html-css-ru/simple-page/)
+- https://peccopa.github.io/html-css-ru/simple-page/
+- ***CSS, HTML***
 ___
