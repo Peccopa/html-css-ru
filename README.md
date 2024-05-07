@@ -1,4 +1,13 @@
 # html-css-ru
+### branch: portfolio-grid
+![2024-05-07](https://peccopa.github.io/html-css-ru/2024-05-07.jpg)
+>Responsive design, burger menu, hide scroll,  
+>validation form, favicon, privacy policy
+- https://peccopa.github.io/html-css-ru/portfolio-grid/dist
+- ***JAVASCRIPT, CSS(SASS), HTML(BEM)***
+- ***GULP:*** *Browser-Sync, AutoPrefixer, Clean-CSS, Rename, HTMLmin, Imagemin*
+- *Figma(Pixso)*
+___
 ### branch: run-smart
 ![2024-04-10](https://github.com/Peccopa/wordpress-ru/assets/119999253/785672e7-2f11-42d9-86f2-987312c1b0b4)
 >Responsive design, modal windows, carousel, active tabs,  
