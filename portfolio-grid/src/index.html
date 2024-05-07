@@ -177,7 +177,21 @@
       <div class="container">
         <div class="about__wrapper">
           <div class="about__photo">
-            <img src="img/main-photo.jpg" alt="photo" />
+            <!-- <img
+              srcset="img/main-photo-min.jpeg 300w, img/main-photo.jpg 400w"
+              sizes="(max-width: 576px) 280px, (min-width: 577px) 400px"
+              src="img/main-photo.jpg"
+              alt="photo"
+            /> -->
+            <!-- <picture>
+              <source media="(max-width: 576px)" srcset="img/main-photo-min.jpeg">
+              <source media="(min-width: 577px)" srcset="img/main-photo.jpg">
+              <img src="img/main-photo.jpg" alt="photo">
+            </picture> -->
+            <picture>
+              <source type="image/webp" srcset="img/main-photo.webp" />
+              <img src="img/main-photo.jpg" alt="photo" />
+            </picture>
           </div>
           <div class="about__descr">
             <h2 class="title title_fz16 about__title">Про меня</h2>
@@ -515,7 +529,7 @@
         </div>
       </div>
     </section>
-    <!-- <section class="portfolio">
+    <section class="portfolio">
       <div class="container">
         <h2 class="title title_fz16 title_center">Портфолио</h2>
         <h3 class="title subtitle_center">Мои работы</h3>
@@ -565,8 +579,8 @@
           </a>
         </div>
       </div>
-    </section> -->
-    <!-- <section class="price-list">
+    </section>
+    <section class="price-list">
       <div class="container">
         <h2 class="title title_fz16 title_center">Прайс-лист</h2>
         <div class="divider"></div>
@@ -611,7 +625,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- <section class="contacts">
       <div class="container">
         <div class="contacts__wrapper">

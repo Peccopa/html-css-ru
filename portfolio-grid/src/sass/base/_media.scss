@@ -31,6 +31,21 @@
       justify-content: space-around;
     }
   }
+  .portfolio {
+    &__wrapper {
+        // margin-top: 6rem;
+        // display: grid;
+        grid-template: repeat(2, 28rem) / repeat(auto-fit, 28rem);
+        justify-content: center;
+        // grid-auto-rows: 28rem;
+        // gap: .5rem;
+      .horizontal,
+      .vertical {
+        grid-row: unset;
+        grid-column: unset;
+      }
+    }
+  }
 }
 
 @media (max-width: 992px) {
@@ -73,6 +88,13 @@
       grid-template-columns: repeat(2, 35rem);
       justify-content: space-around;
     }
+  }
+  .price-list {
+    &__wrapper {
+      grid-template-columns: repeat(auto-fit, 37rem);
+      justify-content: center;
+  }
+
   }
 }
 
