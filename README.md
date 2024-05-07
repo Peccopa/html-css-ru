@@ -1,13 +1,10 @@
 # html-css-ru
 ### branch: portfolio-grid
-![2024-04-12](https://)
->~~Responsive design, modal windows, hide scroll, carousel, active tabs,~~  
->~~interactive map, validation form, mailer, favicon, privacy policy~~
+![2024-05-07](https://peccopa.github.io/html-css-ru/2024-05-07.jpg)
+>Responsive design, burger menu, hide scroll,  
+>validation form, favicon, privacy policy
 - https://peccopa.github.io/html-css-ru/portfolio-grid/dist
-- ***PHP, JAVASCRIPT, CSS(SASS), HTML(BEM)***
-- ~~***GULP:*** *Browser-Sync, AutoPrefixer, Clean-CSS, Rename, HTMLmin, Imagemin*~~
-- ~~***jQuery:*** *jQvalidate, SlickSlider, MaskedInput*~~
-- ~~*PHPMailer, Figma(Pixso), Animate.css, Wow.js*~~
-- *~~PixelPerfect~~, ~~Tiny-Slider~~*
+- ***JAVASCRIPT, CSS(SASS), HTML(BEM)***
+- ***GULP:*** *Browser-Sync, AutoPrefixer, Clean-CSS, Rename, HTMLmin, Imagemin*
+- *Figma(Pixso)*
 ___
-
