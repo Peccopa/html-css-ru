@@ -1,0 +1,38 @@
+.title {
+  color: $text-color;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: 0%;
+  &_fz48 {
+    font-size: 4.8rem;
+  }
+  &_fz20 {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  &_fz16 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  &_fz14 {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  &_center {
+    position: relative;
+    text-align: center;
+    @include before_circle;
+    &::before {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+.subtitle {
+  &_center {
+    letter-spacing: 0.1rem;
+    margin-top: 0.6rem;
+    text-align: center;
+  }
+}
