@@ -1,0 +1,7 @@
+[data-category="main" i] {
+  background-color: lightsalmon;
+}
+
+[data-category="main"] {
+  background-color: rgb(12, 170, 139);
+}

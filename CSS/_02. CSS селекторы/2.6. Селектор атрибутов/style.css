@@ -1,0 +1,11 @@
+[data-category='main'] {
+  background-color: lightsalmon;
+}
+
+[main-title='first'] {
+  color: blueviolet;
+}
+
+[main-title='second'] {
+  color: red;
+}
