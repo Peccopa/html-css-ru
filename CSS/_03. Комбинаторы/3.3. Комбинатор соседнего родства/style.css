@@ -1,3 +1,7 @@
 .greet + p {
   background-color: burlywood;
 }
+
+.title + h2 {
+  color: red;
+}
