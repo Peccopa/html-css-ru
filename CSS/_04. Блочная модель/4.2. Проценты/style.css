@@ -1,0 +1,21 @@
+.container {
+  border: 2px solid blue;
+  font-size: 0;
+}
+
+.container img {
+  width: calc(100% / 3);
+}
+
+.text__container {
+  font-size: 0px;
+  /* width: 100%; */
+}
+
+.text__container p {
+  font-size: 19px;
+  margin: 0;
+  display: inline-block;
+  width: calc(100% / 4);
+  /* border: 2px solid red; */
+}
