@@ -1,0 +1,115 @@
+.contacts {
+  &__wrapper {
+    padding: 0 3.5rem 9.1rem 5.2rem;
+    display: grid;
+    grid-template-columns: 40rem 58.5rem;
+    justify-content: space-between;
+  }
+  &__photo {
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__title {
+    position: relative;
+    margin: 0.6rem 0 0.6rem 1.2rem;
+    @include before_circle;
+  }
+  &__subtitle {
+    letter-spacing: 0.1rem;
+  }
+  &__text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  &__social {
+    padding: 2rem 0;
+    display: flex;
+    gap: 2.5rem;
+  }
+  &__link {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    img {
+      width: 100%;
+    }
+  }
+  &__form {
+    margin-top: 3rem;
+    display: grid;
+    grid-template: 4.5rem 19rem 4.5rem / repeat(2, 28rem);
+    justify-content: space-between;
+    row-gap: 2.9rem;
+    label {
+      display: block;
+      position: absolute;
+      top: -0.9rem;
+      left: 1.2rem;
+      height: 1.8rem;
+      padding: 0 0.8rem;
+      background-color: #fff;
+      font-size: 1.2rem;
+    }
+  }
+  &__input {
+    position: relative;
+    input {
+      width: 100%;
+      height: 100%;
+      padding: 0 2rem;
+      color: #000;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 18px;
+    }
+  }
+  &__textarea {
+    position: relative;
+    grid-column: 1 / 3;
+    textarea {
+      resize: none;
+      width: 100%;
+      height: 100%;
+      padding: 1rem 2rem;
+      color: #000;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 18px;
+    }
+  }
+  &__triggers {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+  }
+  &__policy {
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    input {
+      margin-right: 1rem;
+    }
+  }
+  &__btn {
+    width: 21.9rem;
+    height: 4.5rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    background-color: $main-color;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0, 0, 0, 0.15);
+    }
+  }
+}

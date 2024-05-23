@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+
+    <meta name="description" content="The First Landing Page">
+    <meta name="keywords" content="web, html, css">
+
+    <title>LandingPage</title>
+</head>
+<body>
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__brand">
+                        webdeveloper
+                    </div>
+                    <div class="header__logo">
+                        <img src="./img/code.png" alt="logo">
+                    </div>
+                    <nav class="header__nav">
+                        <a class="header__nav__link" href="./index.html">Home</a>
+                        <a class="header__nav__link" href="./about.html">About me</a>
+                        <a class="header__nav__link active" href="./contacts.html">Contacts</a>
+                    </nav>
+                </div>
+            </div> <!--/.container-->
+        </header>
+        <!-- Main -->
+        <div class="container">
+            <main class="content">
+                <div class="content__header">
+                    <h1 class="title">Write me a <span>message</span></h1>
+                    <div class="text">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <form class="form" action="/" method="post">
+                    <div class="form__group">
+                        <input class="input" type="text" name="name" placeholder="Name">
+                    </div>
+                    <div class="form__group">
+                        <input class="input" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form__group">
+                        <input class="input" type="tel" name="phone" placeholder="Phone">
+                    </div>
+                    <div class="form__group">
+                        <textarea class="textarea" name="text" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form__group">
+                        <button class="btn btn__full" type="submit">Send message</button>
+                    </div>
+                </form>
+            </main>
+        </div>
+        <img class="dwarf" src="./img/dwarf.png" alt="dwarf">
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="contacts">
+                    <a class="contacts__link" href="mailto:l2bonza@yandex.ru">
+                        <img class="contacts__icon" src="./img/mail.png" alt="mail">l2bonza@yandex.ru
+                    </a>
+                    <a class="contacts__link" href="tel:+79168291896">
+                        <img class="contacts__icon" src="./img/tel.png" alt="phone">+7(916)829-18-96
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div> <!--/.page-->
+</body>
+</html>
