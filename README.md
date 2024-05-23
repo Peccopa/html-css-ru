@@ -32,12 +32,6 @@ ___
 - ***CSS, HTML***
 - *Figma(Pixso), ~~PerfectPixel~~*
 ___
-## [html-css-ru: my-awesome-page](https://github.com/Peccopa/html-css-ru/tree/main)
-[<img src="https://peccopa.github.io/html-css-ru/html/html.jpg">](https://peccopa.github.io/html-css-ru/html/)
-- https://peccopa.github.io/html-css-ru/html/
-- ***CSS, HTML***
-- *Bootstrap*
-___
 ## [html-css-ru: my-awesome-page](https://github.com/Peccopa/html-css-ru/tree/my-awesome-page)
 [<img src="https://peccopa.github.io/html-css-ru/my-awesome-page/my-awesome-page.jpg">](https://peccopa.github.io/html-css-ru/my-awesome-page/)
 - https://peccopa.github.io/html-css-ru/my-awesome-page/
