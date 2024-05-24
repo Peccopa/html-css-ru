@@ -1,11 +1,11 @@
 .bg-image {
-  background-image: url("https://picsum.photos/id/46/200");
+  background-image: url("https://loremflickr.com/200/200");
   width: 200px;
   height: 200px;
 }
 
 .bg-small {
-  background-image: url("https://picsum.photos/id/46/200");
+  background-image: url("https://loremflickr.com/320/240");
   width: 350px;
   height: 350px;
   border: 1px solid gray;
@@ -17,4 +17,9 @@
 
 .bg-repeat-no-crop {
   background-repeat: round;
+}
+
+p {
+  width: 300px;
+  background-image: url("https://loremflickr.com/320/240");
 }
