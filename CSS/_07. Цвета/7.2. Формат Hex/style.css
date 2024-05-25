@@ -3,8 +3,8 @@ body {
 }
 
 .box {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin-right: 20px;
   margin-top: 20px;
   border-radius: 10px;
@@ -53,4 +53,14 @@ body {
 
 .box10 {
   background-color: #16a1a1;
+}
+
+.box11 {
+  background-color: #CF4E5D;
+  color: #A55A62;
+}
+
+.box12 {
+  background-color: #7A575B;
+  color: #504647;
 }
