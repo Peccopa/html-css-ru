@@ -11,3 +11,8 @@ p::first-letter {
   color: green;
   font-size: 3rem;
 }
+
+p::first-line {
+  font-style: italic;
+  color: lightgreen;
+}
