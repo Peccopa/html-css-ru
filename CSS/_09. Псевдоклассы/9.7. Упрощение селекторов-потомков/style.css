@@ -25,6 +25,15 @@ body {
 .product .title,
 .product .description
 */
-.product :is(.title, .description) {
+/* .product :is(.title, .description) {
   border-bottom: 1px solid gray;
+} */
+
+.product p {
+  border-top: 1px solid gray;
 }
+
+/* .product .title,
+.product .description {
+  border-bottom: 1px solid gray;
+} */

@@ -11,8 +11,15 @@ body {
   border: none; /* удаление границы */
   border-radius: 5px;
   cursor: pointer; /* Стиль указателя мыши при наведении курсора на кнопку */
+  transition: all 0.3s ease-in-out;
 }
 
 .hover-button:hover {
   background-color: #2980b9; /* изменение цвета на более темный оттенок синего */
+}
+
+.hover-button:active {  
+  margin-top: 32px;
+  margin-left: 2px;
+  background-color: black;
 }
