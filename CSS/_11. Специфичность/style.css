@@ -26,3 +26,8 @@ h2 {
 .main {
   color: green !important;
 }
+
+#task {
+  color: blueviolet;
+  text-decoration: underline;
+}
