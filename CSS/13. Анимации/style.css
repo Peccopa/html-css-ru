@@ -65,3 +65,25 @@ body {
     background-color: darkmagenta;
   }
 }
+
+.spinner {
+  /* margin: 0 auto; */
+  margin: 1rem;
+  /* border-bottom: 1rem blue solid; */
+  border-top: 1rem blue solid;
+  /* border-top: 1rem pink solid; */
+  border-bottom: 1rem pink solid;
+  border-radius: 50%;
+  background-image: linear-gradient(blue, pink);
+  /* animation: spinner 5s ease 0s infinite alternate; */
+  animation: spinner 5s linear 0s infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

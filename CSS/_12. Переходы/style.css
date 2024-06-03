@@ -37,3 +37,18 @@ body {
   color: white;
   font-size: 1.1rem;
 }
+
+.btn {
+  padding: 20px;
+  border: 2px green solid;
+  color: aliceblue;
+  background-color: #ff0000;
+  transition: all 0.5s ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 2px rgb(139, 255, 139) solid;
+  color: rgb(12, 142, 255);
+  background-color: #ff9e9e;
+}
