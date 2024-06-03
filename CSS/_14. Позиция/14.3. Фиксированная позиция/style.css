@@ -17,3 +17,13 @@ body {
   font-size: 1.5rem;
   line-height: 1.3;
 }
+
+.box {
+  background-color: lawngreen;
+  position: fixed;
+  bottom: 0;
+}
+
+.box-header {
+  background-color: blueviolet;
+}
