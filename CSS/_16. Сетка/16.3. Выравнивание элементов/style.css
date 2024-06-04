@@ -10,7 +10,10 @@ body {
 
   display: grid;
   grid-template-rows: repeat(2, 150px);
-  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
 
   /* раскомментируйте чтобы увидеть выравнивание в действии */
   /* justify-items: center; */
@@ -18,10 +21,17 @@ body {
 }
 
 .box {
+  display: flex;
+
   color: white;
   background-color: cornflowerblue;
   border: 2px solid darkblue;
   padding: 30px;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+
+
 
   /*
   ширина и высота указываются для того, чтобы элементы сетки были меньше
@@ -43,3 +53,8 @@ body {
   align-self: center;
   background-color: yellowgreen;
 } */
+
+.box:nth-child(5) {
+  background-color: blueviolet;
+  align-self: self-start;
+}
