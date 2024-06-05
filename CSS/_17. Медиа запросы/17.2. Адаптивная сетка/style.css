@@ -1,0 +1,78 @@
+body {
+  margin: 30px;
+}
+
+.gridContainer {
+  margin-top: 25px;
+  font-size: 1.5rem;
+
+  display: grid;
+  grid-template-rows: repeat(4, 150px);
+  /* 4 ряда и 3 колонки */
+  grid-template-areas:
+    'header   header header'
+    'left-side  main   main'
+    'left-side  main   main'
+    'footer   footer footer';
+}
+
+.box {
+  background-color: cornflowerblue;
+  border: 2px solid darkblue;
+  padding: 20px;
+}
+
+.topbar {
+  grid-area: header;
+}
+
+.left-side {
+  grid-area: left-side;
+  background-color: darkturquoise;
+}
+
+.main-content {
+  grid-area: main;
+  background-color: salmon;
+}
+
+.right-side {
+  display: none;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: plum;
+}
+
+@media (max-width: 550px) {
+  .gridContainer {
+    grid-template-rows: repeat(5, 130px);
+
+    /* 5 рядов и 1 колонка */
+    grid-template-areas:
+      'header'
+      'left-side'
+      'main'
+      'main'
+      'footer';
+  }
+}
+
+@media (min-width: 800px) {
+  .gridContainer {
+    /* grid-template-rows: repeat(4, 150px); */
+    /* 4 ряда и 3 колонки */
+    grid-template-areas:
+      'header header header header'
+      'left-side main main right-side'
+      'left-side main main right-side'
+      'footer footer footer footer';
+  }
+
+  .right-side {
+    display: block;
+    grid-area: right-side;
+    background-color: rgb(209, 0, 0);
+  }
+}
