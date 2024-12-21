@@ -76,7 +76,8 @@ body {
   border-radius: 50%;
   background-image: linear-gradient(blue, pink);
   /* animation: spinner 5s ease 0s infinite alternate; */
-  animation: spinner 5s linear 0s infinite;
+  animation: spinner 10s linear 0s infinite;
+  /* animation-duration: 600ms; */
 }
 
 @keyframes spinner {

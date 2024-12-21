@@ -1,8 +1,8 @@
-div {
+/* div {
   width: 100px;
   height: 100px;
   background-color: blue;
-}
+} */
 
 /* высота автоматически рассчитывается в соответствии
  с содержимым элемента p */
@@ -11,7 +11,62 @@ p {
   background-color: yellow;
 }
 
+img {
+  width: 1000px;
+}
+
+textarea {
+  width: 1000px;
+}
+
 .btn {
   width: 100px;
   height: 50px;
+}
+
+.container {
+  /* position: sticky; */
+  /* top: 0; */
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 50px;
+  background: red;
+}
+
+.block-1 {
+  /* float: left; */
+  /* display: inline-block; */
+  width: 100px;
+  height: 10px;
+  background: forestgreen;
+}
+
+.block-2 {
+  /* float: left; */
+
+  /* display: inline-block; */
+  width: 100px;
+  height: 10px;
+  background: rgb(64, 0, 255);
+}
+
+.block-3 {
+  /* float: left; */
+  /* align-content: center; */
+  /* position: ; */
+  /* display: inline-block; */
+  width: 100px;
+  height: 10px;
+  background: rgb(251, 255, 0);
+}
+
+.block-4 {
+  /* float: left; */
+  /* align-content: center; */
+  /* position: ; */
+  /* display: inline-block; */
+  /* width: 100px; */
+  /* height: 10px; */
+  background: rgb(255, 255, 255);
 }

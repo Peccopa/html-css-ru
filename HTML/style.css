@@ -1,0 +1,34 @@
+:root {
+  --main-color: red;
+}
+
+.text {
+  text-align: right;
+  font-style: normal;
+  /* font-style: italic; */
+  /* font-style: oblique; */
+  color: var(--main-color);
+}
+
+body {
+  /* position: relative; */
+  /* font: italic bold 24px Arial; */
+}
+
+.red {
+  /* position: relative; */
+  /* top: -200px; */
+  width: 100px;
+  height: 40px;
+  background-color: hsl(0, 100%, 50%);
+  /* background-image: #aaa; */
+  /* background-position: #aaa; */
+  /* background-repeat: #aaa; */
+  /* background: #aaa; */
+
+  /* border: 10px dotted black; */
+  /* padding: 10px 0 0 0; */
+  padding: 10px 20px;
+  margin: 30px;
+  border: 5px solid #040;
+}
