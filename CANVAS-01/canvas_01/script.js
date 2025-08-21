@@ -18,3 +18,4 @@ ctx.rect(50, 10, 100, 100);
 ctx.stroke();
 ctx.fillStyle = 'orange';
 ctx.fill();
+
