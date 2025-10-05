@@ -1,3 +1,4 @@
 # svg
 
-<https://youtu.be/4Am6o6lsjqE?t=3202>
+<https://www.youtube.com/watch?v=ODWF3h2VDLM>
+<https://www.youtube.com/watch?v=dPoRsolsCjA>
